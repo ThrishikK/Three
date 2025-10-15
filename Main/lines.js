@@ -72,7 +72,7 @@ generatePoint();
 let intervalId = setInterval(() => {
   generatePoint();
 
-  if (points.length >= 50) {
+  if (points.length >= 3) {
     clearInterval(intervalId);
     console.log("Reached 30 points, stopping generation.");
   }
